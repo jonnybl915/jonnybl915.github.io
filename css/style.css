@@ -1,10 +1,3 @@
-/* Custom Stylesheet */
-/**
- * Use this file to override Materialize files so you can update
- * the core Materialize files in the future
- *
- * Made By MaterializeCSS.com
- */
 
  html {
  	font-family: 'Oswald', sans-serif;
@@ -31,6 +24,16 @@ nav a {
 .header {
 font-family: "Roboto", sans serif;
 font-weight: 300;
-
-
+}
+.footer-icon {
+	display: inline-block; 
+	padding-left:0px;
+	padding-top:10px;
+	padding-right:10px;
+	padding-bottom:10px;"
+}
+.hover:hover{
+  cursor:pointer;
+  background-color:teal;
+  color:white;
 }

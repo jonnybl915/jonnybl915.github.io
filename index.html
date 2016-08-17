@@ -20,7 +20,7 @@
   <div class="navbar-fixed">
     <nav class="white black-text" role="navigation">
       <div class="nav-wrapper container">
-        <div id="logo-container" class="brand-logo black-text"><span class="grey-text" style="font-size: 20px">Jon</span> Black</div>
+        <div id="logo-container" class="brand-logo black-text"><span class="grey-text" style="font-size: 25px">J</span>B</div>
 
         <!-- Side-Nav -->
         <ul class="right hide-on-med-and-down"> 
@@ -30,13 +30,14 @@
           <!-- <li><a href="LinkToJavify">Javafy</a></li> -->
         </ul>
 
+       
         <ul id="nav-mobile" class="side-nav">
+
           <li><a href="mailto:@jonnybl915@gmail.com">Email Me</a></li>
           <li><a href="https://github.com/jonnybl915">GitHub</a></li>
           <li><a href="resume/Resume.pdf">Resume</a></li>
 
         </ul>
-
 
         <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">menu</i></a>
 
@@ -45,17 +46,23 @@
   </div>
   <div class="section no-pad-bot" id="index-banner">
     
-      
-      <h1 class="header center-align black-text">Hello.</h1>
 
-        <ul class="center-align">
-           <li><span>My name is Jon Black.</span></li>
-           <li><span>Recent graduate of the Backend course at The Iron Yard Charleston.</span> </li>
-           <li><span>I'm a cook, a board-game fanatic, a Teutophile, and a lover of learning.</span> </li>
-           <li><span>Let's get to know each other.</span></li>
-        </ul>
+      <!-- About Me / Intro Start -->
+        <div class="intro-section">
 
+          <h1 class="header center-align black-text">Hello.</h1>
 
+          <ul class="center-align">
+             <li><span>My name is Jon Black.</span></li>
+             <li><span>Recent graduate of the Backend course at The Iron Yard Charleston.</span> </li>
+             <li><span>I'm a cook, a board-game fanatic, a Teutophile, and a lover of learning.</span> </li>
+             <li><span>Let's get to know each other.</span></li>
+          </ul>
+
+        </div>
+
+        <div class="center"><img class="center-align" src="images/downArrow.png"></div>
+      <!-- About Me / Intro END -->
     
 
     <!-- Projects Section -->
@@ -71,12 +78,12 @@
 
 
           <!-- Project-card 1-->
-          <div class="col s12 m4 hover responsive-img project-card">
+          <div class="col s12 m4 hover  responsive-img project-card">
             <div>
               <div class="icon-block modal-trigger" data-target="modal1">
 
                 <h2 class="center"> 
-                 <img src="images/TheYada.png" alt="none" class="circle responsive-img"> 
+                 <img src="images/TheYada.png" alt="none" class="responsive-img"> 
                </h2>
 
                <h5 class="center black-text">The Yada</h5>
@@ -110,16 +117,16 @@
 
   <!-- Project-card 2-->
           <div class="col s12 m4 hover responsive-img project-card">
-            <a class="modal-trigger"  href="#modal2">
+             <div class="icon-block modal-trigger" data-target="modal2">
               <div class="icon-block ">
 
                 <h2 class="center"> 
-                 <img src="images/APitunes.png" alt="none" class="circle responsive-img"> 
+                 <img src="images/APitunes.png" alt="none" class="responsive-img"> 
                </h2>
 
                <h5 class="center black-text">APitunes</h5>
 
-               <a href="https://github.com/jonnybl915/APitunes">
+               <a href="https://github.com/jonnybl915/APitunes" class="github-link">
                  <div class="icon-block ghicon" >
                  <img src="images/GH.png"> 
                  </div>
@@ -128,7 +135,7 @@
                <p class="light black-text">A platform to help local musicians exhibit their music. Artists can create profiles and upload music for other users. Non-artist users log in to listen and vote on the music.</p>
              </div>
              
-           </a>
+           </div>
          </div>
 
          <div id="modal2" class="modal">
@@ -147,11 +154,11 @@
 
        <!-- Project-card 3-->
           <div class="col s12 m4 hover responsive-img project-card">
-            <a class="modal-trigger"  href="#modal3">
+             <div class="icon-block modal-trigger" data-target="modal3">
               <div class="icon-block ">
 
                 <h2 class="center"> 
-                 <img src="images/Skip.png" alt="none" class="circle responsive-img"> 
+                 <img src="images/Skip.png" alt="none" class="responsive-img"> 
                </h2>
 
                <h5 class="center black-text">Skip To The Loooooo</h5>
@@ -164,20 +171,22 @@
 
                <p class="light black-text">This app allows users to rate and subit the locations of public restrooms in their area. The user submits their rating along with the latitude and longitude of the restroom location for other users' benefit.</p>
              </div>
-           </a>
+           </div>
          </div>
 
          <div id="modal3" class="modal">
-          <div class="modal-content black-text">
-           <img src="images/Skip.png" alt="none" class="responsive-img">
-           <p>Find the right public restroom.</p>
-      <p>This was our first cross class weekend assignment at The Iron Yard. A fellow backender and I worked alongside two frontend students. This project gave me great insight into the value of communication in a team setting. Tech used on the backend: Java with Sparc microframework, JUnit for testing, and H2 for database structure</p>
-         </div>
+            
+            <div class="modal-content black-text">
+               <img src="images/Skip.png" alt="none" class="responsive-img">
+               <p>Find the right public restroom.</p>
+               <p>This was our first cross class weekend assignment at The Iron Yard. A fellow backender and I worked alongside two frontend students. This project gave me great insight into the value of communication in a team setting. Tech used on the backend: Java with Sparc microframework, JUnit for testing, and H2 for database structure</p>
+            </div>
 
-         <div class="modal-footer">
-           <a href="#!" class=" modal-action modal-close waves-effect waves-green btn-flat">close</a>
-         </div>
-       </div>
+            <div class="modal-footer">
+               <a href="#!" class=" modal-action modal-close waves-effect waves-green btn-flat">close</a>
+            </div>
+
+          </div>
 
        <!-- End Project-card 3-->
 
@@ -188,11 +197,11 @@
 <!-- Project-card 4-->
           <div class="row">
           <div class="col s12 m4 hover offset-m2 hover project-card">
-            <a class="modal-trigger"  href="#modal4">
+             <div class="icon-block modal-trigger" data-target="modal4">
               <div class="icon-block ">
 
                 <h2 class="center"> 
-                 <img src="images/Concert.png" alt="none" class="circle responsive-img"> 
+                 <img src="images/Concert.png" alt="none" class="responsive-img"> 
                </h2>
 
                <h5 class="center black-text">Concert Tracker</h5>
@@ -206,12 +215,12 @@
                <p class="light black-text">This is a simple CRUD app wich allows users to create concert events and rsvp as attending or attended.</p>
              </div>
              
-           </a>
+           </div>
          </div>
 
          <div id="modal4" class="modal">
           <div class="modal-content black-text">
-           <img src="images/Concert.png" alt="none" class="responsive-img">
+           <img src="images/Concert.png" alt="none" class="project-image responsive-img">
            <p>Hey ho, let's go.</p>
           <p>This was our second solo weekend project at The Iron Yard. We were instructed to build a CRUD "tracker" app which only allowed users to edit and delete items which they created. Tech used: Java with Spring, Mustache for templating, Html, CSS, and Postgres. </p>
          </div>
@@ -226,11 +235,11 @@
        <!-- Project-card 5-->
        <div class="row">
           <div class="col s12 m4 hover responsive-img project-card">
-            <a class="modal-trigger"  href="#modal5">
+             <div class="icon-block modal-trigger" data-target="modal5">
               <div class="icon-block ">
 
                 <h2 class="center"> 
-                 <img src="images/H2Know.png" alt="none" class="circle responsive-img"> 
+                 <img src="images/H2Know.png" alt="none" class="responsive-img"> 
                </h2>
 
                <h5 class="center black-text">H2Know</h5>
@@ -244,14 +253,13 @@
                <p class="light black-text">This app allows users to know when to water their plants. The user picks from our preexisting list of houseplants, and after watering the plant, clicks a button which starts the watering timer. When the timer is done the user knows to water their plant again.</p>
              </div>
              
-           </a>
+           </div>
          </div>
 
          <div id="modal5" class="modal">
           <div class="modal-content black-text">
            <img src="images/H2Know.png" alt="none" class="responsive-img">
-           <p>H2Know. So you don't have to remember.</p>
-          <p>This was an extra-curricular weekend assignment which I worked on in tandem with one front ender. I used Java with Spring and Hibernate, and H2.  </p>
+          <p>This was an extra-curricular weekend assignment which I worked on in tandem with one front ender. I used Java with Spring and Hibernate, and H2.</p>
          </div>
 
          <div class="modal-footer">
@@ -261,10 +269,10 @@
 
        <!-- End Project-card 5-->
 
- <div class="section"> </div>
+  
 
-</div>
-</div>
+    </div>
+  </div>
 </div>
 
 
@@ -277,12 +285,12 @@
         <p>I'm very excited to begin my journey in the Charleston tech scene. If you'd like to get to know me better, hear about my experience at The Iron Yard, or talk about my qualifications for joining your team please do not hesitate to contact me.</p>
       </div>
       <div class="col l4 offset-l2 s12">
-        <h5 class="black-text">Connect</h5>
+       
         <ul>
-         <li  class="footer-icon"> <a href="mailto:@jonnybl915@gmail.com"><i class="small material-icons black-text"">markunread_mailbox</i></a></li>
-         <li  class="footer-icon"> <a  href="tel:864-350-3102"><i class="small material-icons black-text">phone</i></a></li>  
-         <li  class="footer-icon"> <a  href="https://www.linkedin.com/in/jon-black-3a5894b7"><i class="small material-icons black-text"> <img src="images/smallIn.png" alt="none"></a></i></li>
-       </ul>
+         <li  class="footer-icon"> <a href="mailto:@jonnybl915@gmail.com"><i class="small material-icons black-text""><img src="images/mail.png" alt="none"></i></a></li>
+         <li  class="footer-icon"> <a  href="tel:864-350-3102"><i class="small material-icons black-text"><img src="images/phone.png" alt="none"></i></a></li>  
+         <li  class="footer-icon"> <a  href="https://www.linkedin.com/in/jon-black-3a5894b7"><i class="small material-icons black-text"> <img src="images/in.png" alt="none"></a></i></li>
+        </ul>
      </div>
    </div>
  </div>

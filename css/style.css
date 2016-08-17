@@ -27,13 +27,31 @@ nav a {
 }
 .hover:hover{
   cursor:pointer;
-  background-color:teal;
+  border: lighter;
+  border-color: black;
   color:white;
 }
 h1 {
 	font-weight: lighter;
 }
-
+h5 {
+	font-weight: light;
+}
 .project-card {
-	
+}
+.header {
+	padding-bottom: 10px;
+}
+.intro-section {
+	padding-top: 150px;
+	padding-bottom: 275px;
+}
+.project-image {
+	border-color: black;
+	border-width: thin;
+}
+.name-logo {
+  font: 400 3.5em/125% 'Sacramento', Helvetica, Sans-serif;
+	color: #333;
+  text-shadow: 4px 4px 3px rgba(0,0,0,0.1); 
 }

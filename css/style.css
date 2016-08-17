@@ -27,9 +27,11 @@ nav a {
 }
 .hover:hover{
   cursor:pointer;
-  border: lighter;
+  
   border-color: black;
-  color:white;
+}
+.footer-section {
+	padding-top 500px;
 }
 h1 {
 	font-weight: lighter;
@@ -38,13 +40,15 @@ h5 {
 	font-weight: light;
 }
 .project-card {
+	border-color: black;
+
 }
 .header {
 	padding-bottom: 10px;
 }
 .intro-section {
 	padding-top: 150px;
-	padding-bottom: 275px;
+	padding-bottom: 300px;
 }
 .project-image {
 	border-color: black;

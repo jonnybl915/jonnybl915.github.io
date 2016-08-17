@@ -32,6 +32,7 @@ nav a {
 }
 .footer-section {
 	padding-top 500px;
+	padding bottom 250px;
 }
 h1 {
 	font-weight: lighter;
@@ -54,8 +55,33 @@ h5 {
 	border-color: black;
 	border-width: thin;
 }
+.project-section {
+	padding-bottom: 500px;
+}
+.bottom-section {
+	padding-bottom: 350px;
+}
 .name-logo {
   font: 400 3.5em/125% 'Sacramento', Helvetica, Sans-serif;
 	color: #333;
   text-shadow: 4px 4px 3px rgba(0,0,0,0.1); 
+}
+@keyframes blink {
+    0% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+.blink-img {
+    animation: blink 1.5s;
+    animation-iteration-count: infinite;
+}
+.blink-img-2{
+    animation: blink 1.5s;
+    animation-iteration-count: infinite;
 }

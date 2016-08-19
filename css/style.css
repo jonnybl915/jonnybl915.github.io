@@ -64,7 +64,7 @@ h5 {
 
 .bottom-section {
 	padding-top: 400px;
-	padding-bottom: 250px;
+	padding-bottom: 200px;
 }
 .name-logo {
   font: 400 3.5em/125% 'Sacramento', Helvetica, Sans-serif;
@@ -119,39 +119,12 @@ h5 {
   padding-bottom: 50px;
 
 }
-.spaced-out-heading1 {
-  font-family: Roboto, sans-serif;
-  font-size: 2.7em;
-  font-weight: 100;
-  line-height: 1em;
-  letter-spacing: 0.4em;
-  color: #1d6152;
-  background-color: #fff;
-  display: center;
-  margin-top: -0.7em;
-  padding: 0.65em 0 0.65em 0.7em;
-  
 
-}
-
-/*#tech-list ul {
-    margin: 0;
-    padding: 0;
-}
-#tech-list ul, li {
-    list-style-type: none;
-    display: inline;
-}
-#tech-list li:before {
-content: " | ";
-}*/
 #tech-list li {
 	padding-bottom: 25px;
 
 }
-/*#tech-list li:first-child:before {
-content: none;
-}*/
+
 .technologies-list {
   font-family: Roboto, sans-serif;
   font-size: 1.5em;
@@ -163,6 +136,12 @@ content: none;
   
   margin-top: -0.7em;
   padding: 0.65em 0 0.65em 0.7em;
+}
+.connect-lines {
+	padding-bottom: 50px;
+}
+.bottom-heading {
+	padding-bottom: 50px;
 }
 
 

@@ -44,6 +44,9 @@ h5 {
 	border-color: black;
 
 }
+.project-card img{
+	cursor:pointer
+}
 .header {
 	padding-bottom: 10px;
 }

@@ -31,3 +31,16 @@ $(window).scroll(function() {
     	})
     }
 });
+
+$(window).scroll(function() {
+    if ($(this).scrollTop() > 3000) { 
+        $('.blink-img-3').css({
+            'visibility': 'hidden'
+        });
+    }
+    else {
+        $('.blink-img-3').css({
+            'visibility': 'visible'
+        })
+    }
+});

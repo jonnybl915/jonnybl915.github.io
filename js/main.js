@@ -20,7 +20,7 @@ $(window).scroll(function() {
 });
 
 $(window).scroll(function() {
-    if ($(this).scrollTop() > 1500) { 
+    if ($(this).scrollTop() > 1800) { 
         $('.blink-img-2').css({
             'visibility': 'hidden'
         });

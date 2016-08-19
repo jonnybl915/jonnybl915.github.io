@@ -49,13 +49,16 @@ h5 {
 }
 .intro-section {
 	padding-top: 150px;
-	padding-bottom: 300px;
+	padding-bottom: 200px;
 }
 .project-image {
 	border-color: black;
 	border-width: thin;
 }
 .project-section {
+	padding-bottom: 200px;
+}
+.tech-section {
 	padding-bottom: 500px;
 }
 .bottom-section {
@@ -80,8 +83,68 @@ h5 {
 .blink-img {
     animation: blink 1.5s;
     animation-iteration-count: infinite;
+    position: relative;
+    padding-bottom: 100px;
 }
 .blink-img-2{
     animation: blink 1.5s;
     animation-iteration-count: infinite;
+    padding-top: 100px;
 }
+.face-photo {
+	position: left;
+	position: relative;
+	padding-left: 120px;
+}
+
+.spaced-out-heading {
+  font-family: Roboto, sans-serif;
+  font-size: 2.7em;
+  font-weight: 100;
+  line-height: 1em;
+  letter-spacing: 0.4em;
+  color: #1d6152;
+  background-color: #fff;
+  display: inline-block;
+  margin-top: -0.7em;
+  padding: 0.65em 0 0.65em 0.7em;
+}
+
+#tech-list ul {
+    margin: 0;
+    padding: 0;
+}
+#tech-list ul, li {
+    list-style-type: none;
+    display: inline;
+}
+#tech-list li:before {
+content: " | ";
+}
+#tech-list li {
+	padding-right: 25px;
+	padding-left:  25px;
+}
+#tech-list li:first-child:before {
+content: none;
+}
+.technologies-list {
+  font-family: Roboto, sans-serif;
+  font-size: 1.5em;
+  font-weight: 200;
+  line-height: 1em;
+  letter-spacing: 0.4em;
+  color: #1d6152;
+  background-color: #fff;
+  
+  margin-top: -0.7em;
+  padding: 0.65em 0 0.65em 0.7em;
+}
+
+
+
+
+
+
+
+

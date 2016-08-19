@@ -45,6 +45,21 @@ $(window).scroll(function() {
     }
 });
 
+$(document).ready(function() {
+    $('.blink-img').click(function(){
+        $('html, body').animate({scrollTop:780}, 'slow');
+        return false;
+    });
+    $('.blink-img-2').click(function(){
+        $('html, body').animate({scrollTop:2150}, 'slow');
+        return false;
+    });
+    $('.blink-img-3').click(function(){
+        $('html, body').animate({scrollTop:3300}, 'slow');
+        return false;
+    });
+});
+
 
 
 

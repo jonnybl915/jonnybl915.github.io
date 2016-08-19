@@ -110,7 +110,7 @@ h5 {
   padding: 0.65em 0 0.65em 0.7em;
 }
 
-#tech-list ul {
+/*#tech-list ul {
     margin: 0;
     padding: 0;
 }
@@ -120,14 +120,14 @@ h5 {
 }
 #tech-list li:before {
 content: " | ";
-}
+}*/
 #tech-list li {
-	padding-right: 25px;
-	padding-left:  25px;
+	padding-bottom: 25px;
+	
 }
-#tech-list li:first-child:before {
+/*#tech-list li:first-child:before {
 content: none;
-}
+}*/
 .technologies-list {
   font-family: Roboto, sans-serif;
   font-size: 1.5em;

@@ -12,6 +12,12 @@ nav a {
 	text-align: center;
 	padding-top: 10px;
 }
+.link-icon {
+	padding-right: 10px;
+}
+.project-links {
+	text-align: center;
+}
 #modal4 {
 	position: center;
 }
